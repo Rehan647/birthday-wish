@@ -1,0 +1,45 @@
+/* Main animated banner container */
+.birthday-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Glowing Text */
+  .glow-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow:
+      0 0 5px #FFD700,
+      0 0 10px #FFA500,
+      0 0 20px #FF4500,
+      0 0 40px #FF1493;
+    animation: bounce 2s infinite ease-in-out;
+    font-family: 'Fredoka', 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  /* Highlight "Najuk" */
+  .glow-text .najuk {
+    color: #00ffff;
+    text-shadow:
+      0 0 5px #00ffff,
+      0 0 10px #00bfff,
+      0 0 20px #1e90ff,
+      0 0 40px #0000ff;
+  }
+  
+  /* Bouncing animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  

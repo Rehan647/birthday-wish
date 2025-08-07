@@ -1,0 +1,98 @@
+.background {
+    background: linear-gradient(135deg, #ffdde1cc, #ee9ca7cc); /* soft pink gradient with transparency */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fredoka', 'Comic Sans MS', cursive, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-image: url('/home.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  /* Clear, visible headings */
+  .heading {
+    font-size: 3rem;
+    color: #003366; /* deep navy blue for contrast */
+    text-shadow: 1px 1px 4px white;
+    margin-bottom: 20px;
+  }
+  
+  /* Highlight the word "Najuk" differently */
+  .heading span.najuk {
+    color: #d71212; /* bright yellow */
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Subheading */
+  .sub-heading {
+    font-size: 1.4rem;
+    color: #1e40af; /* bright blue */
+    text-shadow: 1px 1px 3px white;
+    margin-bottom: 30px;
+  }
+  
+  /* Form - extremely transparent */
+  .birthday-form {
+    background: rgba(255, 255, 255, 0.05); /* almost invisible */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+    width: 100%;
+    max-width: 420px;
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px); /* just a light frost */
+  }
+  
+  /* Input fields - keep visible text */
+  .birthday-form input {
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #003366;
+  }
+  
+  /* Focus effect */
+  .birthday-form input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 6px rgba(59, 130, 246, 0.3);
+    outline: none;
+  }
+  
+  /* Button - slightly more visible */
+  .birthday-form button {
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: rgba(59, 130, 246, 0.6);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  
+  /* Button hover */
+  .birthday-form button:hover {
+    background: rgba(30, 64, 175, 0.6);
+    transform: scale(1.05);
+  }
+  
+  /* Placeholder text */
+  .birthday-form input::placeholder {
+    color: rgba(30, 64, 175, 0.6);
+    font-style: italic;
+  }
+  
