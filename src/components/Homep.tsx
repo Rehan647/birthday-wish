@@ -19,7 +19,7 @@ export default function home({ dob, setDob, userName, setUserName }: HomeProps) 
       if (userName.toLowerCase() ==="najuk" && dob=== '2000-08-08') {
         // alert(`Welcome ${userName}, DOB saved: ${dob}`);
         // You can navigate or show another component now
-        alert(`🎉 Happy Birthday Najuk!`);
+        // alert(`🎉 Happy Birthday Najuk!`);
         console.log("Navigating to /puzzel");
         navigate('/puzzel');
       }else{

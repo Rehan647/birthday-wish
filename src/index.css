@@ -9,13 +9,13 @@ body {
 /* Outer container - responsive and centered */
 .outer {
   text-align: center;
-  padding: 4vw 5vw;
+  /* padding: 4vw 5vw; */
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 90%;
   width: 600px;
-  margin: 5vh auto;
+  margin:  auto;
   transition: all 0.3s ease-in-out;
 }
 
